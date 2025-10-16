@@ -1,18 +1,4 @@
 
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# Laboratorio 8 - TC
-# Problemas 1, 2 y 3: complejidad y profiling
-#
-# Uso:
-#   python profiling.py --no-plots
-#   python profiling.py --out /ruta/resultados.csv
-#   python profiling.py --sizes 1 10 100 1000 10000 100000 1000000
-#
-# Genera:
-#   - CSV con tiempos medidos/estimados
-#   - PNGs con gráficas (si no usas --no-plots)
-
 import argparse
 import math
 import time
